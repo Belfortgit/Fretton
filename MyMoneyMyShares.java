@@ -42,7 +42,8 @@ class MyMoneyMyShares
         System.out.println("Rahim's Share"+rahimShare);        
     }
 
-    // assignApples function is used to allocate the apples according to the person's share. It take two parameters list of apple weights and total weight that has to be assingned to person
+    // assignApples function is used to allocate the apples according to the person's share. It takes two parameters, " A list of apple weights" and "total share of the person"
+    // and returns a list of the apple weights
     // here we are assuming that values of the weight can always be assingned 
     public static List<Integer> assignApples(List<Integer> list, int tar)
     {
